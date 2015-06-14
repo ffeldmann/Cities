@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC29F5FF1B2CB48E00DDD93C /* CityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29F5FE1B2CB48E00DDD93C /* CityDetailViewController.swift */; };
 		DCD3FE401B2C3AD10032D6A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3FE3F1B2C3AD10032D6A8 /* AppDelegate.swift */; };
-		DCD3FE421B2C3AD10032D6A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3FE411B2C3AD10032D6A8 /* ViewController.swift */; };
+		DCD3FE421B2C3AD10032D6A8 /* CitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3FE411B2C3AD10032D6A8 /* CitiesViewController.swift */; };
 		DCD3FE451B2C3AD10032D6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD3FE431B2C3AD10032D6A8 /* Main.storyboard */; };
 		DCD3FE471B2C3AD10032D6A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD3FE461B2C3AD10032D6A8 /* Images.xcassets */; };
 		DCD3FE4A1B2C3AD10032D6A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCD3FE481B2C3AD10032D6A8 /* LaunchScreen.xib */; };
 		DCD3FE561B2C3AD10032D6A8 /* CitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3FE551B2C3AD10032D6A8 /* CitiesTests.swift */; };
+		DCD3FE601B2C93180032D6A8 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD3FE5F1B2C93180032D6A8 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC29F5FE1B2CB48E00DDD93C /* CityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CityDetailViewController.swift; path = ../CityDetailViewController.swift; sourceTree = "<group>"; };
 		DCD3FE3A1B2C3AD10032D6A8 /* Cities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD3FE3E1B2C3AD10032D6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD3FE3F1B2C3AD10032D6A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCD3FE411B2C3AD10032D6A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCD3FE411B2C3AD10032D6A8 /* CitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CitiesViewController.swift; path = Cities/CitiesViewController.swift; sourceTree = SOURCE_ROOT; };
 		DCD3FE441B2C3AD10032D6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCD3FE461B2C3AD10032D6A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCD3FE491B2C3AD10032D6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCD3FE4F1B2C3AD10032D6A8 /* CitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD3FE541B2C3AD10032D6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCD3FE551B2C3AD10032D6A8 /* CitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTests.swift; sourceTree = "<group>"; };
+		DCD3FE5F1B2C93180032D6A8 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = City.swift; path = Cities/City.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +81,10 @@
 		DCD3FE3C1B2C3AD10032D6A8 /* Cities */ = {
 			isa = PBXGroup;
 			children = (
+				DC29F5FE1B2CB48E00DDD93C /* CityDetailViewController.swift */,
 				DCD3FE3F1B2C3AD10032D6A8 /* AppDelegate.swift */,
-				DCD3FE411B2C3AD10032D6A8 /* ViewController.swift */,
+				DCD3FE411B2C3AD10032D6A8 /* CitiesViewController.swift */,
+				DCD3FE5F1B2C93180032D6A8 /* City.swift */,
 				DCD3FE431B2C3AD10032D6A8 /* Main.storyboard */,
 				DCD3FE461B2C3AD10032D6A8 /* Images.xcassets */,
 				DCD3FE481B2C3AD10032D6A8 /* LaunchScreen.xib */,
@@ -161,6 +167,7 @@
 				TargetAttributes = {
 					DCD3FE391B2C3AD10032D6A8 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = SZEDS83NVF;
 					};
 					DCD3FE4E1B2C3AD10032D6A8 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -212,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCD3FE421B2C3AD10032D6A8 /* ViewController.swift in Sources */,
+				DC29F5FF1B2CB48E00DDD93C /* CityDetailViewController.swift in Sources */,
+				DCD3FE421B2C3AD10032D6A8 /* CitiesViewController.swift in Sources */,
 				DCD3FE401B2C3AD10032D6A8 /* AppDelegate.swift in Sources */,
+				DCD3FE601B2C93180032D6A8 /* City.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Cities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -352,6 +362,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Cities/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +422,7 @@
 				DCD3FE5B1B2C3AD10032D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCD3FE5C1B2C3AD10032D6A8 /* Build configuration list for PBXNativeTarget "CitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +431,7 @@
 				DCD3FE5E1B2C3AD10032D6A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

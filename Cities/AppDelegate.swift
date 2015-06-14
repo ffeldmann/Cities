@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let melbourne = City(name:"Melbourne", image:UIImage(named: "melbourne"))
+        if let citiesViewController = window?.rootViewController as? CitiesViewController{
+            citiesViewController.city = melbourne
+        }
+        
+        
         return true
     }
 
